@@ -1,0 +1,11 @@
+When I click on an item in the main navigation:
+    -the page should jump to the topic location on the page / or an internal page for the topic.
+    -the topic page should be populated with user reviews automatically.
+
+When I click on the 'Give a review' button
+    -a form should slide out from the right hand side to allow the user to leave a review.
+    -the form should contain rating system (out of 5 stars).
+    -the form should allow for topic area selection.
+
+When I click on the 'Submit review' button
+    -a content box should be generated on the topic area page.
