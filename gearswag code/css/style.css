@@ -83,9 +83,7 @@ footer a {
 /*******************************************/
 
 html {
-    background: url(../img/sand-pyramid.jpg);
-    background-size: cover;
-    background-size: center;
+    background: black;
 }
 
 .nav {
@@ -114,14 +112,14 @@ html {
     line-height: 0.9;
     text-transform: uppercase;
     padding: 0.8rem;
-    margin: 0.8rem;
+    margin: 2.5rem;
     border-radius: 5px;
     box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
     text-decoration: none;
     background: red;
     color: white;
-    float: left;
-}
+/*    float: left;
+*/}
 
 .navmenu:hover {
     background: black;
@@ -140,7 +138,7 @@ html {
     margin: 1rem 1rem 1rem 1rem;
     display: block;
     float: left;
-    width: 50%;
+    width: 75%;
     border-radius: 5px;
 }
 
@@ -158,3 +156,63 @@ input[type="submit"] {
       color: white;
       border-radius: 5px;
     }
+
+.reviewbox {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem 2rem;
+    margin: 1rem 1rem 1rem 1rem;
+    display: block;
+    border: solid black 10px;
+    border-radius: 5px;
+}
+
+.GS {
+    background: url(../img/sand-pyramid.jpg);
+    background-size: cover;
+    background-size: center;
+}
+
+.pack {
+    background: url(../img/backcountry.JPG);
+    background-size: cover;
+    background-size: center;
+}
+
+.slopes {
+    background: url(../img/winter-mountain.JPG);
+    background-size: cover;
+    background-size: center;
+}
+
+.tech {
+    background: url(../img/tech.JPG);
+    background-size: cover;
+    background-size: center;
+}
+
+.bike {
+    background: url(../img/bike.JPG);
+    background-size: cover;
+    background-size: center;
+}
+
+.paddle {
+    background: url(../img/paddle.JPG);
+    background-size: cover;
+    background-size: center;
+}
+
+.moveIt {
+/*    height:300px;
+*/    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem 2rem;
+    margin: 1rem 1rem 1rem 1rem;
+    display: block;
+    border: solid black 5px;
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
